@@ -23,3 +23,12 @@ h1{
     -webkit-text-stroke: 1px black
 }
 
+#carouselhomepage {
+
+    width: 500px;
+    margin: 0 auto;
+   
+}
+#carouselhomepage img{
+    border-radius: 10%;
+}
