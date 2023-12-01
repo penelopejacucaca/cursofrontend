@@ -18,11 +18,10 @@ input{
     border-radius: 30%;
 }
 
-h1{
+h1, h5 , {
     color: azure;
     -webkit-text-stroke: 1px black
 }
-
 #carouselhomepage {
 
     width: 500px;
@@ -33,19 +32,10 @@ h1{
     border-radius: 10%;
 }
 
-#carouselhomepage h5,p {
-
-    text-shadow:
-        1px 1px 2px black,
-        0 0 1em black,
-        0 0 0.2em black;
-    color: white;
-    font:
-      1.5em Georgia,
-      serif;
-       
-      
+#carouselhomepage h5, p{
+    text-shadow:  1px 1px 2px black;
 }
-#carouselhomepage p{
+#carouselhomepage p,{
     font-size: small;
 }
+
