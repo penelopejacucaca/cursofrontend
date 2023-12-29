@@ -8,7 +8,10 @@
     &__item {
         color: $font-color-primary;
         font-size: $font-size-nav;
+        font-family: 'Roboto Mono', monospace;
         text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
         position: relative;
         &:hover {
             color: $color-secondary;

@@ -1,6 +1,6 @@
 .vitrine {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     gap: 1rem;
 
     &__item {
@@ -24,6 +24,7 @@
         justify-content: center;
         display: flex;
         width: 100%;
+
     }
 
     &__title {
@@ -31,6 +32,7 @@
         color: $color-secondary;
         text-align: center;
         width: 100%;
+        font-family:'Roboto Mono', monospace;
     }
 
     &__desc {
