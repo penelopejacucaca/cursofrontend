@@ -65,6 +65,7 @@ section {
     flex-flow: column;
     margin: 0 auto;
     max-width: 90vw;
+    
 }
 
 @import 'animations';
@@ -74,3 +75,5 @@ section {
 @import 'vitrine';
 @import 'steps';
 @import 'footer';
+@import 'responsive';
+@import 'grid';

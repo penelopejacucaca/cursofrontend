@@ -9,6 +9,22 @@
     flex-wrap: wrap;
     flex-direction: row;
 
+    @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+
+        img {
+            margin-left: -50%;
+            position: relative;
+            width: 500%;
+            max-width: none;
+            margin-right: -38%;
+            margin-top: 40px;
+            display: flex;
+        }
+    }
+    
+
     &__item {
         margin: 1rem;
         width: calc(80% / 5 - 1rem);
@@ -17,9 +33,7 @@
         span {
             color: $color-secondary;
         }
-        img{
-            border-radius: 10px;
-        }
+      
     }
 
 }
